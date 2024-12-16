@@ -1,0 +1,56 @@
+/* ListEvents.css */
+.events-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.events-table th,
+.events-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.events-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.events-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.events-table tr:hover {
+  background-color: #ddd;
+}
+
+.error-message {
+  color: #ff4d4f; /* Softer red for better aesthetics */
+  text-align: center;
+  background-color: #fff5f5; /* Light red background for contrast */
+  border: 1px solid #ffcccc; /* Border for clear visibility */
+  border-radius: 4px; /* Rounded corners for smoother look */
+  padding: 10px 20px; /* Padding for proper spacing */
+  font-size: 1rem; /* Slightly larger font size for readability */
+  font-weight: 500; /* Medium weight for emphasis */
+  margin: 10px auto; /* Spacing around the message */
+  max-width: 400px; /* Limit width for neat appearance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
