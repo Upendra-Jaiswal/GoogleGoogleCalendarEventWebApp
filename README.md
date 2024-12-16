@@ -1,8 +1,8 @@
-📄 Project Overview
+📄 ## Project Overview
 
 This project integrates Google Calendar with the MERN stack (MongoDB, Express.js, React.js, and Node.js). It allows users to sign in with their Google account, manage events, and sync them with their Google Calendar.
 
-🌟 Features
+🌟 # Features
 
 Google Sign-In
 Securely log in using Google credentials.
